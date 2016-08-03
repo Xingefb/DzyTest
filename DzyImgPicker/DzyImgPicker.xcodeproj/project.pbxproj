@@ -1,0 +1,1109 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AB87AC1D51B42700F54BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87AB1D51B42700F54BD8 /* main.m */; };
+		01AB87AF1D51B42700F54BD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87AE1D51B42700F54BD8 /* AppDelegate.m */; };
+		01AB87B21D51B42700F54BD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87B11D51B42700F54BD8 /* ViewController.m */; };
+		01AB87B51D51B42700F54BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AB87B31D51B42700F54BD8 /* Main.storyboard */; };
+		01AB87B81D51B42700F54BD8 /* DzyImgPicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87B61D51B42700F54BD8 /* DzyImgPicker.xcdatamodeld */; };
+		01AB87BA1D51B42700F54BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AB87B91D51B42700F54BD8 /* Assets.xcassets */; };
+		01AB87BD1D51B42700F54BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AB87BB1D51B42700F54BD8 /* LaunchScreen.storyboard */; };
+		01AB87C81D51B42800F54BD8 /* DzyImgPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87C71D51B42800F54BD8 /* DzyImgPickerTests.m */; };
+		01AB87D31D51B42800F54BD8 /* DzyImgPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87D21D51B42800F54BD8 /* DzyImgPickerUITests.m */; };
+		01AB883B1D51B57400F54BD8 /* LGPhotoPickerBrowserPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87E51D51B57400F54BD8 /* LGPhotoPickerBrowserPhoto.m */; };
+		01AB883C1D51B57400F54BD8 /* LGPhotoRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87E71D51B57400F54BD8 /* LGPhotoRect.m */; };
+		01AB883D1D51B57400F54BD8 /* LGPhotoPickerBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87EA1D51B57400F54BD8 /* LGPhotoPickerBrowserViewController.m */; };
+		01AB883E1D51B57400F54BD8 /* LGImagePickerSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87ED1D51B57400F54BD8 /* LGImagePickerSelectView.m */; };
+		01AB883F1D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87EF1D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoImageView.m */; };
+		01AB88401D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87F11D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoScrollView.m */; };
+		01AB88411D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87F31D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoView.m */; };
+		01AB88421D51B57400F54BD8 /* LGPhotoPickerCustomToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87F51D51B57400F54BD8 /* LGPhotoPickerCustomToolBarView.m */; };
+		01AB88431D51B57400F54BD8 /* LGPhotoAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87F91D51B57400F54BD8 /* LGPhotoAssets.m */; };
+		01AB88441D51B57400F54BD8 /* LGPhotoPickerDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87FB1D51B57400F54BD8 /* LGPhotoPickerDatas.m */; };
+		01AB88451D51B57400F54BD8 /* LGPhotoPickerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB87FD1D51B57400F54BD8 /* LGPhotoPickerGroup.m */; };
+		01AB88461D51B57400F54BD8 /* LGPhotoPickerAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88001D51B57400F54BD8 /* LGPhotoPickerAssetsViewController.m */; };
+		01AB88471D51B57400F54BD8 /* LGPhotoPickerGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88021D51B57400F54BD8 /* LGPhotoPickerGroupViewController.m */; };
+		01AB88481D51B57400F54BD8 /* LGPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88041D51B57400F54BD8 /* LGPhotoPickerViewController.m */; };
+		01AB88491D51B57400F54BD8 /* LGPhotoPickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88071D51B57400F54BD8 /* LGPhotoPickerCollectionView.m */; };
+		01AB884A1D51B57400F54BD8 /* LGPhotoPickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88091D51B57400F54BD8 /* LGPhotoPickerCollectionViewCell.m */; };
+		01AB884B1D51B57400F54BD8 /* LGPhotoPickerFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB880B1D51B57400F54BD8 /* LGPhotoPickerFooterCollectionReusableView.m */; };
+		01AB884C1D51B57400F54BD8 /* LGPhotoPickerGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB880D1D51B57400F54BD8 /* LGPhotoPickerGroupTableViewCell.m */; };
+		01AB884D1D51B57400F54BD8 /* LGPhotoPickerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB880F1D51B57400F54BD8 /* LGPhotoPickerImageView.m */; };
+		01AB884E1D51B57400F54BD8 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88141D51B57400F54BD8 /* UIView+Layout.m */; };
+		01AB884F1D51B57400F54BD8 /* LGCameraImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88171D51B57400F54BD8 /* LGCameraImageView.m */; };
+		01AB88501D51B57400F54BD8 /* ZLCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88191D51B57400F54BD8 /* ZLCamera.m */; };
+		01AB88511D51B57400F54BD8 /* ZLCameraImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB881B1D51B57400F54BD8 /* ZLCameraImageView.m */; };
+		01AB88521D51B57400F54BD8 /* ZLCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB881D1D51B57400F54BD8 /* ZLCameraView.m */; };
+		01AB88531D51B57400F54BD8 /* ZLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB881F1D51B57400F54BD8 /* ZLCameraViewController.m */; };
+		01AB88541D51B57400F54BD8 /* DzyImgPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88211D51B57400F54BD8 /* DzyImgPicker.m */; };
+		01AB88551D51B57400F54BD8 /* imageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88231D51B57400F54BD8 /* imageCell.m */; };
+		01AB88561D51B57400F54BD8 /* broswerPic0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88251D51B57400F54BD8 /* broswerPic0.jpg */; };
+		01AB88571D51B57400F54BD8 /* broswerPic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88261D51B57400F54BD8 /* broswerPic1.jpg */; };
+		01AB88581D51B57400F54BD8 /* broswerPic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88271D51B57400F54BD8 /* broswerPic2.jpg */; };
+		01AB88591D51B57400F54BD8 /* broswerPic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88281D51B57400F54BD8 /* broswerPic3.jpg */; };
+		01AB885A1D51B57400F54BD8 /* broswerPic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88291D51B57400F54BD8 /* broswerPic4.jpg */; };
+		01AB885B1D51B57400F54BD8 /* btn_back_imagePicker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB882A1D51B57400F54BD8 /* btn_back_imagePicker@2x.png */; };
+		01AB885C1D51B57400F54BD8 /* checkbox_pic2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB882B1D51B57400F54BD8 /* checkbox_pic2@2x.png */; };
+		01AB885D1D51B57400F54BD8 /* checkbox_pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB882C1D51B57400F54BD8 /* checkbox_pic@2x.png */; };
+		01AB885E1D51B57400F54BD8 /* checkbox_pic_non2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB882D1D51B57400F54BD8 /* checkbox_pic_non2@2x.png */; };
+		01AB885F1D51B57400F54BD8 /* checkbox_pic_non@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB882E1D51B57400F54BD8 /* checkbox_pic_non@2x.png */; };
+		01AB88601D51B57400F54BD8 /* icon_pic_break@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB882F1D51B57400F54BD8 /* icon_pic_break@2x.png */; };
+		01AB88611D51B57400F54BD8 /* lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88301D51B57400F54BD8 /* lock@2x.png */; };
+		01AB88621D51B57400F54BD8 /* paizhao.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88311D51B57400F54BD8 /* paizhao.png */; };
+		01AB88631D51B57400F54BD8 /* paizhao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88321D51B57400F54BD8 /* paizhao@2x.png */; };
+		01AB88641D51B57400F54BD8 /* shanguangdeng2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88331D51B57400F54BD8 /* shanguangdeng2.png */; };
+		01AB88651D51B57400F54BD8 /* shanguangdeng2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88341D51B57400F54BD8 /* shanguangdeng2@2x.png */; };
+		01AB88661D51B57400F54BD8 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88351D51B57400F54BD8 /* X.png */; };
+		01AB88671D51B57400F54BD8 /* X@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88361D51B57400F54BD8 /* X@2x.png */; };
+		01AB88681D51B57400F54BD8 /* xiang.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88371D51B57400F54BD8 /* xiang.png */; };
+		01AB88691D51B57400F54BD8 /* xiang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88381D51B57400F54BD8 /* xiang@2x.png */; };
+		01AB88701D51B59100F54BD8 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB886D1D51B59100F54BD8 /* DACircularProgressView.m */; };
+		01AB88711D51B59100F54BD8 /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB886F1D51B59100F54BD8 /* DALabeledCircularProgressView.m */; };
+		01AB88901D51B59C00F54BD8 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88741D51B59C00F54BD8 /* NSData+ImageContentType.m */; };
+		01AB88911D51B59C00F54BD8 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88761D51B59C00F54BD8 /* SDImageCache.m */; };
+		01AB88921D51B59C00F54BD8 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88781D51B59C00F54BD8 /* SDWebImageCompat.m */; };
+		01AB88931D51B59C00F54BD8 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB887A1D51B59C00F54BD8 /* SDWebImageDecoder.m */; };
+		01AB88941D51B59C00F54BD8 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB887C1D51B59C00F54BD8 /* SDWebImageDownloader.m */; };
+		01AB88951D51B59C00F54BD8 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB887E1D51B59C00F54BD8 /* SDWebImageDownloaderOperation.m */; };
+		01AB88961D51B59C00F54BD8 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88801D51B59C00F54BD8 /* SDWebImageManager.m */; };
+		01AB88971D51B59C00F54BD8 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88831D51B59C00F54BD8 /* SDWebImagePrefetcher.m */; };
+		01AB88981D51B59C00F54BD8 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88851D51B59C00F54BD8 /* UIButton+WebCache.m */; };
+		01AB88991D51B59C00F54BD8 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88871D51B59C00F54BD8 /* UIImage+GIF.m */; };
+		01AB889A1D51B59C00F54BD8 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88891D51B59C00F54BD8 /* UIImage+MultiFormat.m */; };
+		01AB889B1D51B59C00F54BD8 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB888B1D51B59C00F54BD8 /* UIImageView+HighlightedWebCache.m */; };
+		01AB889C1D51B59C00F54BD8 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB888D1D51B59C00F54BD8 /* UIImageView+WebCache.m */; };
+		01AB889D1D51B59C00F54BD8 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB888F1D51B59C00F54BD8 /* UIView+WebCacheOperation.m */; };
+		01AB88B81D51B5A700F54BD8 /* MLPhotoBrowserAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88A21D51B5A700F54BD8 /* MLPhotoBrowserAssets.m */; };
+		01AB88B91D51B5A700F54BD8 /* MLPhotoBrowserDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88A41D51B5A700F54BD8 /* MLPhotoBrowserDatas.m */; };
+		01AB88BA1D51B5A700F54BD8 /* MLPhotoBrowserPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88A61D51B5A700F54BD8 /* MLPhotoBrowserPhoto.m */; };
+		01AB88BB1D51B5A700F54BD8 /* UIImage+MLBrowserPhotoImageForBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88A81D51B5A700F54BD8 /* UIImage+MLBrowserPhotoImageForBundle.m */; };
+		01AB88BC1D51B5A700F54BD8 /* MLPhotoBrowserSignleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88AB1D51B5A700F54BD8 /* MLPhotoBrowserSignleViewController.m */; };
+		01AB88BD1D51B5A700F54BD8 /* MLPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88AD1D51B5A700F54BD8 /* MLPhotoBrowserViewController.m */; };
+		01AB88BE1D51B5A700F54BD8 /* MLPhotoBrowserCustomToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88B01D51B5A700F54BD8 /* MLPhotoBrowserCustomToolBarView.m */; };
+		01AB88BF1D51B5A700F54BD8 /* MLPhotoBrowserPhotoImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88B21D51B5A700F54BD8 /* MLPhotoBrowserPhotoImageView.m */; };
+		01AB88C01D51B5A700F54BD8 /* MLPhotoBrowserPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88B41D51B5A700F54BD8 /* MLPhotoBrowserPhotoScrollView.m */; };
+		01AB88C11D51B5A700F54BD8 /* MLPhotoBrowserPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88B61D51B5A700F54BD8 /* MLPhotoBrowserPhotoView.m */; };
+		01AB88C21D51B5A700F54BD8 /* MLPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88B71D51B5A700F54BD8 /* MLPhotoBrowser.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01AB87C41D51B42800F54BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01AB879F1D51B42700F54BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AB87A61D51B42700F54BD8;
+			remoteInfo = DzyImgPicker;
+		};
+		01AB87CF1D51B42800F54BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01AB879F1D51B42700F54BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AB87A61D51B42700F54BD8;
+			remoteInfo = DzyImgPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AB87A71D51B42700F54BD8 /* DzyImgPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DzyImgPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AB87AB1D51B42700F54BD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01AB87AD1D51B42700F54BD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01AB87AE1D51B42700F54BD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01AB87B01D51B42700F54BD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01AB87B11D51B42700F54BD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01AB87B41D51B42700F54BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01AB87B71D51B42700F54BD8 /* DzyImgPicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DzyImgPicker.xcdatamodel; sourceTree = "<group>"; };
+		01AB87B91D51B42700F54BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01AB87BC1D51B42700F54BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01AB87BE1D51B42700F54BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01AB87C31D51B42800F54BD8 /* DzyImgPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DzyImgPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AB87C71D51B42800F54BD8 /* DzyImgPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DzyImgPickerTests.m; sourceTree = "<group>"; };
+		01AB87C91D51B42800F54BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01AB87CE1D51B42800F54BD8 /* DzyImgPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DzyImgPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AB87D21D51B42800F54BD8 /* DzyImgPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DzyImgPickerUITests.m; sourceTree = "<group>"; };
+		01AB87D41D51B42800F54BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01AB87E11D51B57400F54BD8 /* LGPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhoto.h; sourceTree = "<group>"; };
+		01AB87E41D51B57400F54BD8 /* LGPhotoPickerBrowserPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerBrowserPhoto.h; sourceTree = "<group>"; };
+		01AB87E51D51B57400F54BD8 /* LGPhotoPickerBrowserPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerBrowserPhoto.m; sourceTree = "<group>"; };
+		01AB87E61D51B57400F54BD8 /* LGPhotoRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoRect.h; sourceTree = "<group>"; };
+		01AB87E71D51B57400F54BD8 /* LGPhotoRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoRect.m; sourceTree = "<group>"; };
+		01AB87E91D51B57400F54BD8 /* LGPhotoPickerBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerBrowserViewController.h; sourceTree = "<group>"; };
+		01AB87EA1D51B57400F54BD8 /* LGPhotoPickerBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerBrowserViewController.m; sourceTree = "<group>"; };
+		01AB87EC1D51B57400F54BD8 /* LGImagePickerSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGImagePickerSelectView.h; sourceTree = "<group>"; };
+		01AB87ED1D51B57400F54BD8 /* LGImagePickerSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGImagePickerSelectView.m; sourceTree = "<group>"; };
+		01AB87EE1D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerBrowserPhotoImageView.h; sourceTree = "<group>"; };
+		01AB87EF1D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerBrowserPhotoImageView.m; sourceTree = "<group>"; };
+		01AB87F01D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerBrowserPhotoScrollView.h; sourceTree = "<group>"; };
+		01AB87F11D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerBrowserPhotoScrollView.m; sourceTree = "<group>"; };
+		01AB87F21D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerBrowserPhotoView.h; sourceTree = "<group>"; };
+		01AB87F31D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerBrowserPhotoView.m; sourceTree = "<group>"; };
+		01AB87F41D51B57400F54BD8 /* LGPhotoPickerCustomToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerCustomToolBarView.h; sourceTree = "<group>"; };
+		01AB87F51D51B57400F54BD8 /* LGPhotoPickerCustomToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerCustomToolBarView.m; sourceTree = "<group>"; };
+		01AB87F81D51B57400F54BD8 /* LGPhotoAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoAssets.h; sourceTree = "<group>"; };
+		01AB87F91D51B57400F54BD8 /* LGPhotoAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoAssets.m; sourceTree = "<group>"; };
+		01AB87FA1D51B57400F54BD8 /* LGPhotoPickerDatas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerDatas.h; sourceTree = "<group>"; };
+		01AB87FB1D51B57400F54BD8 /* LGPhotoPickerDatas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerDatas.m; sourceTree = "<group>"; };
+		01AB87FC1D51B57400F54BD8 /* LGPhotoPickerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerGroup.h; sourceTree = "<group>"; };
+		01AB87FD1D51B57400F54BD8 /* LGPhotoPickerGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerGroup.m; sourceTree = "<group>"; };
+		01AB87FF1D51B57400F54BD8 /* LGPhotoPickerAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerAssetsViewController.h; sourceTree = "<group>"; };
+		01AB88001D51B57400F54BD8 /* LGPhotoPickerAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerAssetsViewController.m; sourceTree = "<group>"; };
+		01AB88011D51B57400F54BD8 /* LGPhotoPickerGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerGroupViewController.h; sourceTree = "<group>"; };
+		01AB88021D51B57400F54BD8 /* LGPhotoPickerGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerGroupViewController.m; sourceTree = "<group>"; };
+		01AB88031D51B57400F54BD8 /* LGPhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerViewController.h; sourceTree = "<group>"; };
+		01AB88041D51B57400F54BD8 /* LGPhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerViewController.m; sourceTree = "<group>"; };
+		01AB88061D51B57400F54BD8 /* LGPhotoPickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerCollectionView.h; sourceTree = "<group>"; };
+		01AB88071D51B57400F54BD8 /* LGPhotoPickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerCollectionView.m; sourceTree = "<group>"; };
+		01AB88081D51B57400F54BD8 /* LGPhotoPickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerCollectionViewCell.h; sourceTree = "<group>"; };
+		01AB88091D51B57400F54BD8 /* LGPhotoPickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerCollectionViewCell.m; sourceTree = "<group>"; };
+		01AB880A1D51B57400F54BD8 /* LGPhotoPickerFooterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		01AB880B1D51B57400F54BD8 /* LGPhotoPickerFooterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerFooterCollectionReusableView.m; sourceTree = "<group>"; };
+		01AB880C1D51B57400F54BD8 /* LGPhotoPickerGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerGroupTableViewCell.h; sourceTree = "<group>"; };
+		01AB880D1D51B57400F54BD8 /* LGPhotoPickerGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerGroupTableViewCell.m; sourceTree = "<group>"; };
+		01AB880E1D51B57400F54BD8 /* LGPhotoPickerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerImageView.h; sourceTree = "<group>"; };
+		01AB880F1D51B57400F54BD8 /* LGPhotoPickerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhotoPickerImageView.m; sourceTree = "<group>"; };
+		01AB88101D51B57400F54BD8 /* LGPhotoPickerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhotoPickerCommon.h; sourceTree = "<group>"; };
+		01AB88131D51B57400F54BD8 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		01AB88141D51B57400F54BD8 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		01AB88161D51B57400F54BD8 /* LGCameraImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCameraImageView.h; sourceTree = "<group>"; };
+		01AB88171D51B57400F54BD8 /* LGCameraImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCameraImageView.m; sourceTree = "<group>"; };
+		01AB88181D51B57400F54BD8 /* ZLCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCamera.h; sourceTree = "<group>"; };
+		01AB88191D51B57400F54BD8 /* ZLCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCamera.m; sourceTree = "<group>"; };
+		01AB881A1D51B57400F54BD8 /* ZLCameraImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCameraImageView.h; sourceTree = "<group>"; };
+		01AB881B1D51B57400F54BD8 /* ZLCameraImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCameraImageView.m; sourceTree = "<group>"; };
+		01AB881C1D51B57400F54BD8 /* ZLCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCameraView.h; sourceTree = "<group>"; };
+		01AB881D1D51B57400F54BD8 /* ZLCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCameraView.m; sourceTree = "<group>"; };
+		01AB881E1D51B57400F54BD8 /* ZLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCameraViewController.h; sourceTree = "<group>"; };
+		01AB881F1D51B57400F54BD8 /* ZLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCameraViewController.m; sourceTree = "<group>"; };
+		01AB88201D51B57400F54BD8 /* DzyImgPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DzyImgPicker.h; sourceTree = "<group>"; };
+		01AB88211D51B57400F54BD8 /* DzyImgPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DzyImgPicker.m; sourceTree = "<group>"; };
+		01AB88221D51B57400F54BD8 /* imageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageCell.h; sourceTree = "<group>"; };
+		01AB88231D51B57400F54BD8 /* imageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageCell.m; sourceTree = "<group>"; };
+		01AB88251D51B57400F54BD8 /* broswerPic0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic0.jpg; sourceTree = "<group>"; };
+		01AB88261D51B57400F54BD8 /* broswerPic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic1.jpg; sourceTree = "<group>"; };
+		01AB88271D51B57400F54BD8 /* broswerPic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic2.jpg; sourceTree = "<group>"; };
+		01AB88281D51B57400F54BD8 /* broswerPic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic3.jpg; sourceTree = "<group>"; };
+		01AB88291D51B57400F54BD8 /* broswerPic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic4.jpg; sourceTree = "<group>"; };
+		01AB882A1D51B57400F54BD8 /* btn_back_imagePicker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back_imagePicker@2x.png"; sourceTree = "<group>"; };
+		01AB882B1D51B57400F54BD8 /* checkbox_pic2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_pic2@2x.png"; sourceTree = "<group>"; };
+		01AB882C1D51B57400F54BD8 /* checkbox_pic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_pic@2x.png"; sourceTree = "<group>"; };
+		01AB882D1D51B57400F54BD8 /* checkbox_pic_non2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_pic_non2@2x.png"; sourceTree = "<group>"; };
+		01AB882E1D51B57400F54BD8 /* checkbox_pic_non@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_pic_non@2x.png"; sourceTree = "<group>"; };
+		01AB882F1D51B57400F54BD8 /* icon_pic_break@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pic_break@2x.png"; sourceTree = "<group>"; };
+		01AB88301D51B57400F54BD8 /* lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock@2x.png"; sourceTree = "<group>"; };
+		01AB88311D51B57400F54BD8 /* paizhao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paizhao.png; sourceTree = "<group>"; };
+		01AB88321D51B57400F54BD8 /* paizhao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paizhao@2x.png"; sourceTree = "<group>"; };
+		01AB88331D51B57400F54BD8 /* shanguangdeng2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shanguangdeng2.png; sourceTree = "<group>"; };
+		01AB88341D51B57400F54BD8 /* shanguangdeng2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shanguangdeng2@2x.png"; sourceTree = "<group>"; };
+		01AB88351D51B57400F54BD8 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		01AB88361D51B57400F54BD8 /* X@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "X@2x.png"; sourceTree = "<group>"; };
+		01AB88371D51B57400F54BD8 /* xiang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiang.png; sourceTree = "<group>"; };
+		01AB88381D51B57400F54BD8 /* xiang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiang@2x.png"; sourceTree = "<group>"; };
+		01AB886C1D51B59100F54BD8 /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		01AB886D1D51B59100F54BD8 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		01AB886E1D51B59100F54BD8 /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALabeledCircularProgressView.h; sourceTree = "<group>"; };
+		01AB886F1D51B59100F54BD8 /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALabeledCircularProgressView.m; sourceTree = "<group>"; };
+		01AB88731D51B59C00F54BD8 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		01AB88741D51B59C00F54BD8 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		01AB88751D51B59C00F54BD8 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		01AB88761D51B59C00F54BD8 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		01AB88771D51B59C00F54BD8 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		01AB88781D51B59C00F54BD8 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		01AB88791D51B59C00F54BD8 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		01AB887A1D51B59C00F54BD8 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		01AB887B1D51B59C00F54BD8 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		01AB887C1D51B59C00F54BD8 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		01AB887D1D51B59C00F54BD8 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		01AB887E1D51B59C00F54BD8 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		01AB887F1D51B59C00F54BD8 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		01AB88801D51B59C00F54BD8 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		01AB88811D51B59C00F54BD8 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		01AB88821D51B59C00F54BD8 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		01AB88831D51B59C00F54BD8 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		01AB88841D51B59C00F54BD8 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		01AB88851D51B59C00F54BD8 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		01AB88861D51B59C00F54BD8 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		01AB88871D51B59C00F54BD8 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		01AB88881D51B59C00F54BD8 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		01AB88891D51B59C00F54BD8 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		01AB888A1D51B59C00F54BD8 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		01AB888B1D51B59C00F54BD8 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		01AB888C1D51B59C00F54BD8 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		01AB888D1D51B59C00F54BD8 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		01AB888E1D51B59C00F54BD8 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		01AB888F1D51B59C00F54BD8 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		01AB88A11D51B5A700F54BD8 /* MLPhotoBrowserAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPhotoBrowserAssets.h; sourceTree = "<group>"; };
+		01AB88A21D51B5A700F54BD8 /* MLPhotoBrowserAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPhotoBrowserAssets.m; sourceTree = "<group>"; };
+		01AB88A31D51B5A700F54BD8 /* MLPhotoBrowserDatas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPhotoBrowserDatas.h; sourceTree = "<group>"; };
+		01AB88A41D51B5A700F54BD8 /* MLPhotoBrowserDatas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPhotoBrowserDatas.m; sourceTree = "<group>"; };
+		01AB88A51D51B5A700F54BD8 /* MLPhotoBrowserPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPhotoBrowserPhoto.h; sourceTree = "<group>"; };
+		01AB88A61D51B5A700F54BD8 /* MLPhotoBrowserPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPhotoBrowserPhoto.m; sourceTree = "<group>"; };
+		01AB88A71D51B5A700F54BD8 /* UIImage+MLBrowserPhotoImageForBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MLBrowserPhotoImageForBundle.h"; sourceTree = "<group>"; };
+		01AB88A81D51B5A700F54BD8 /* UIImage+MLBrowserPhotoImageForBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MLBrowserPhotoImageForBundle.m"; sourceTree = "<group>"; };
+		01AB88AA1D51B5A700F54BD8 /* MLPhotoBrowserSignleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPhotoBrowserSignleViewController.h; sourceTree = "<group>"; };
+		01AB88AB1D51B5A700F54BD8 /* MLPhotoBrowserSignleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPhotoBrowserSignleViewController.m; sourceTree = "<group>"; };
+		01AB88AC1D51B5A700F54BD8 /* MLPhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPhotoBrowserViewController.h; sourceTree = "<group>"; };
+		01AB88AD1D51B5A700F54BD8 /* MLPhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPhotoBrowserViewController.m; sourceTree = "<group>"; };
+		01AB88AF1D51B5A700F54BD8 /* MLPhotoBrowserCustomToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPhotoBrowserCustomToolBarView.h; sourceTree = "<group>"; };
+		01AB88B01D51B5A700F54BD8 /* MLPhotoBrowserCustomToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPhotoBrowserCustomToolBarView.m; sourceTree = "<group>"; };
+		01AB88B11D51B5A700F54BD8 /* MLPhotoBrowserPhotoImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPhotoBrowserPhotoImageView.h; sourceTree = "<group>"; };
+		01AB88B21D51B5A700F54BD8 /* MLPhotoBrowserPhotoImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPhotoBrowserPhotoImageView.m; sourceTree = "<group>"; };
+		01AB88B31D51B5A700F54BD8 /* MLPhotoBrowserPhotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPhotoBrowserPhotoScrollView.h; sourceTree = "<group>"; };
+		01AB88B41D51B5A700F54BD8 /* MLPhotoBrowserPhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPhotoBrowserPhotoScrollView.m; sourceTree = "<group>"; };
+		01AB88B51D51B5A700F54BD8 /* MLPhotoBrowserPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPhotoBrowserPhotoView.h; sourceTree = "<group>"; };
+		01AB88B61D51B5A700F54BD8 /* MLPhotoBrowserPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPhotoBrowserPhotoView.m; sourceTree = "<group>"; };
+		01AB88B71D51B5A700F54BD8 /* MLPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLPhotoBrowser.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01AB87A41D51B42700F54BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AB87C01D51B42800F54BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AB87CB1D51B42800F54BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01AB879E1D51B42700F54BD8 = {
+			isa = PBXGroup;
+			children = (
+				01AB87A91D51B42700F54BD8 /* DzyImgPicker */,
+				01AB87C61D51B42800F54BD8 /* DzyImgPickerTests */,
+				01AB87D11D51B42800F54BD8 /* DzyImgPickerUITests */,
+				01AB87A81D51B42700F54BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01AB87A81D51B42700F54BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01AB87A71D51B42700F54BD8 /* DzyImgPicker.app */,
+				01AB87C31D51B42800F54BD8 /* DzyImgPickerTests.xctest */,
+				01AB87CE1D51B42800F54BD8 /* DzyImgPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01AB87A91D51B42700F54BD8 /* DzyImgPicker */ = {
+			isa = PBXGroup;
+			children = (
+				01AB889E1D51B5A700F54BD8 /* MLPhotoBrowser */,
+				01AB88721D51B59C00F54BD8 /* SDWebImage */,
+				01AB886B1D51B59100F54BD8 /* DACircularProgress */,
+				01AB87E01D51B57400F54BD8 /* Classes */,
+				01AB88201D51B57400F54BD8 /* DzyImgPicker.h */,
+				01AB88211D51B57400F54BD8 /* DzyImgPicker.m */,
+				01AB88221D51B57400F54BD8 /* imageCell.h */,
+				01AB88231D51B57400F54BD8 /* imageCell.m */,
+				01AB88241D51B57400F54BD8 /* Images */,
+				01AB87AD1D51B42700F54BD8 /* AppDelegate.h */,
+				01AB87AE1D51B42700F54BD8 /* AppDelegate.m */,
+				01AB87B01D51B42700F54BD8 /* ViewController.h */,
+				01AB87B11D51B42700F54BD8 /* ViewController.m */,
+				01AB87B31D51B42700F54BD8 /* Main.storyboard */,
+				01AB87B91D51B42700F54BD8 /* Assets.xcassets */,
+				01AB87BB1D51B42700F54BD8 /* LaunchScreen.storyboard */,
+				01AB87BE1D51B42700F54BD8 /* Info.plist */,
+				01AB87B61D51B42700F54BD8 /* DzyImgPicker.xcdatamodeld */,
+				01AB87AA1D51B42700F54BD8 /* Supporting Files */,
+			);
+			path = DzyImgPicker;
+			sourceTree = "<group>";
+		};
+		01AB87AA1D51B42700F54BD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01AB87AB1D51B42700F54BD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01AB87C61D51B42800F54BD8 /* DzyImgPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				01AB87C71D51B42800F54BD8 /* DzyImgPickerTests.m */,
+				01AB87C91D51B42800F54BD8 /* Info.plist */,
+			);
+			path = DzyImgPickerTests;
+			sourceTree = "<group>";
+		};
+		01AB87D11D51B42800F54BD8 /* DzyImgPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01AB87D21D51B42800F54BD8 /* DzyImgPickerUITests.m */,
+				01AB87D41D51B42800F54BD8 /* Info.plist */,
+			);
+			path = DzyImgPickerUITests;
+			sourceTree = "<group>";
+		};
+		01AB87E01D51B57400F54BD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01AB87E11D51B57400F54BD8 /* LGPhoto.h */,
+				01AB87E21D51B57400F54BD8 /* LGPhotoBrowser */,
+				01AB87F61D51B57400F54BD8 /* LGPhotoPicker */,
+				01AB88101D51B57400F54BD8 /* LGPhotoPickerCommon.h */,
+				01AB88111D51B57400F54BD8 /* Utils */,
+				01AB88151D51B57400F54BD8 /* ZLCamera */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		01AB87E21D51B57400F54BD8 /* LGPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				01AB87E31D51B57400F54BD8 /* Models */,
+				01AB87E81D51B57400F54BD8 /* ViewControllers */,
+				01AB87EB1D51B57400F54BD8 /* Views */,
+			);
+			path = LGPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		01AB87E31D51B57400F54BD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01AB87E41D51B57400F54BD8 /* LGPhotoPickerBrowserPhoto.h */,
+				01AB87E51D51B57400F54BD8 /* LGPhotoPickerBrowserPhoto.m */,
+				01AB87E61D51B57400F54BD8 /* LGPhotoRect.h */,
+				01AB87E71D51B57400F54BD8 /* LGPhotoRect.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01AB87E81D51B57400F54BD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				01AB87E91D51B57400F54BD8 /* LGPhotoPickerBrowserViewController.h */,
+				01AB87EA1D51B57400F54BD8 /* LGPhotoPickerBrowserViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		01AB87EB1D51B57400F54BD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01AB87EC1D51B57400F54BD8 /* LGImagePickerSelectView.h */,
+				01AB87ED1D51B57400F54BD8 /* LGImagePickerSelectView.m */,
+				01AB87EE1D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoImageView.h */,
+				01AB87EF1D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoImageView.m */,
+				01AB87F01D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoScrollView.h */,
+				01AB87F11D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoScrollView.m */,
+				01AB87F21D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoView.h */,
+				01AB87F31D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoView.m */,
+				01AB87F41D51B57400F54BD8 /* LGPhotoPickerCustomToolBarView.h */,
+				01AB87F51D51B57400F54BD8 /* LGPhotoPickerCustomToolBarView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01AB87F61D51B57400F54BD8 /* LGPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				01AB87F71D51B57400F54BD8 /* Models */,
+				01AB87FE1D51B57400F54BD8 /* ViewControllers */,
+				01AB88051D51B57400F54BD8 /* Views */,
+			);
+			path = LGPhotoPicker;
+			sourceTree = "<group>";
+		};
+		01AB87F71D51B57400F54BD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01AB87F81D51B57400F54BD8 /* LGPhotoAssets.h */,
+				01AB87F91D51B57400F54BD8 /* LGPhotoAssets.m */,
+				01AB87FA1D51B57400F54BD8 /* LGPhotoPickerDatas.h */,
+				01AB87FB1D51B57400F54BD8 /* LGPhotoPickerDatas.m */,
+				01AB87FC1D51B57400F54BD8 /* LGPhotoPickerGroup.h */,
+				01AB87FD1D51B57400F54BD8 /* LGPhotoPickerGroup.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01AB87FE1D51B57400F54BD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				01AB87FF1D51B57400F54BD8 /* LGPhotoPickerAssetsViewController.h */,
+				01AB88001D51B57400F54BD8 /* LGPhotoPickerAssetsViewController.m */,
+				01AB88011D51B57400F54BD8 /* LGPhotoPickerGroupViewController.h */,
+				01AB88021D51B57400F54BD8 /* LGPhotoPickerGroupViewController.m */,
+				01AB88031D51B57400F54BD8 /* LGPhotoPickerViewController.h */,
+				01AB88041D51B57400F54BD8 /* LGPhotoPickerViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		01AB88051D51B57400F54BD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01AB88061D51B57400F54BD8 /* LGPhotoPickerCollectionView.h */,
+				01AB88071D51B57400F54BD8 /* LGPhotoPickerCollectionView.m */,
+				01AB88081D51B57400F54BD8 /* LGPhotoPickerCollectionViewCell.h */,
+				01AB88091D51B57400F54BD8 /* LGPhotoPickerCollectionViewCell.m */,
+				01AB880A1D51B57400F54BD8 /* LGPhotoPickerFooterCollectionReusableView.h */,
+				01AB880B1D51B57400F54BD8 /* LGPhotoPickerFooterCollectionReusableView.m */,
+				01AB880C1D51B57400F54BD8 /* LGPhotoPickerGroupTableViewCell.h */,
+				01AB880D1D51B57400F54BD8 /* LGPhotoPickerGroupTableViewCell.m */,
+				01AB880E1D51B57400F54BD8 /* LGPhotoPickerImageView.h */,
+				01AB880F1D51B57400F54BD8 /* LGPhotoPickerImageView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01AB88111D51B57400F54BD8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				01AB88121D51B57400F54BD8 /* Category */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		01AB88121D51B57400F54BD8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				01AB88131D51B57400F54BD8 /* UIView+Layout.h */,
+				01AB88141D51B57400F54BD8 /* UIView+Layout.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		01AB88151D51B57400F54BD8 /* ZLCamera */ = {
+			isa = PBXGroup;
+			children = (
+				01AB88161D51B57400F54BD8 /* LGCameraImageView.h */,
+				01AB88171D51B57400F54BD8 /* LGCameraImageView.m */,
+				01AB88181D51B57400F54BD8 /* ZLCamera.h */,
+				01AB88191D51B57400F54BD8 /* ZLCamera.m */,
+				01AB881A1D51B57400F54BD8 /* ZLCameraImageView.h */,
+				01AB881B1D51B57400F54BD8 /* ZLCameraImageView.m */,
+				01AB881C1D51B57400F54BD8 /* ZLCameraView.h */,
+				01AB881D1D51B57400F54BD8 /* ZLCameraView.m */,
+				01AB881E1D51B57400F54BD8 /* ZLCameraViewController.h */,
+				01AB881F1D51B57400F54BD8 /* ZLCameraViewController.m */,
+			);
+			path = ZLCamera;
+			sourceTree = "<group>";
+		};
+		01AB88241D51B57400F54BD8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				01AB88251D51B57400F54BD8 /* broswerPic0.jpg */,
+				01AB88261D51B57400F54BD8 /* broswerPic1.jpg */,
+				01AB88271D51B57400F54BD8 /* broswerPic2.jpg */,
+				01AB88281D51B57400F54BD8 /* broswerPic3.jpg */,
+				01AB88291D51B57400F54BD8 /* broswerPic4.jpg */,
+				01AB882A1D51B57400F54BD8 /* btn_back_imagePicker@2x.png */,
+				01AB882B1D51B57400F54BD8 /* checkbox_pic2@2x.png */,
+				01AB882C1D51B57400F54BD8 /* checkbox_pic@2x.png */,
+				01AB882D1D51B57400F54BD8 /* checkbox_pic_non2@2x.png */,
+				01AB882E1D51B57400F54BD8 /* checkbox_pic_non@2x.png */,
+				01AB882F1D51B57400F54BD8 /* icon_pic_break@2x.png */,
+				01AB88301D51B57400F54BD8 /* lock@2x.png */,
+				01AB88311D51B57400F54BD8 /* paizhao.png */,
+				01AB88321D51B57400F54BD8 /* paizhao@2x.png */,
+				01AB88331D51B57400F54BD8 /* shanguangdeng2.png */,
+				01AB88341D51B57400F54BD8 /* shanguangdeng2@2x.png */,
+				01AB88351D51B57400F54BD8 /* X.png */,
+				01AB88361D51B57400F54BD8 /* X@2x.png */,
+				01AB88371D51B57400F54BD8 /* xiang.png */,
+				01AB88381D51B57400F54BD8 /* xiang@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		01AB886B1D51B59100F54BD8 /* DACircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				01AB886C1D51B59100F54BD8 /* DACircularProgressView.h */,
+				01AB886D1D51B59100F54BD8 /* DACircularProgressView.m */,
+				01AB886E1D51B59100F54BD8 /* DALabeledCircularProgressView.h */,
+				01AB886F1D51B59100F54BD8 /* DALabeledCircularProgressView.m */,
+			);
+			path = DACircularProgress;
+			sourceTree = "<group>";
+		};
+		01AB88721D51B59C00F54BD8 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				01AB88731D51B59C00F54BD8 /* NSData+ImageContentType.h */,
+				01AB88741D51B59C00F54BD8 /* NSData+ImageContentType.m */,
+				01AB88751D51B59C00F54BD8 /* SDImageCache.h */,
+				01AB88761D51B59C00F54BD8 /* SDImageCache.m */,
+				01AB88771D51B59C00F54BD8 /* SDWebImageCompat.h */,
+				01AB88781D51B59C00F54BD8 /* SDWebImageCompat.m */,
+				01AB88791D51B59C00F54BD8 /* SDWebImageDecoder.h */,
+				01AB887A1D51B59C00F54BD8 /* SDWebImageDecoder.m */,
+				01AB887B1D51B59C00F54BD8 /* SDWebImageDownloader.h */,
+				01AB887C1D51B59C00F54BD8 /* SDWebImageDownloader.m */,
+				01AB887D1D51B59C00F54BD8 /* SDWebImageDownloaderOperation.h */,
+				01AB887E1D51B59C00F54BD8 /* SDWebImageDownloaderOperation.m */,
+				01AB887F1D51B59C00F54BD8 /* SDWebImageManager.h */,
+				01AB88801D51B59C00F54BD8 /* SDWebImageManager.m */,
+				01AB88811D51B59C00F54BD8 /* SDWebImageOperation.h */,
+				01AB88821D51B59C00F54BD8 /* SDWebImagePrefetcher.h */,
+				01AB88831D51B59C00F54BD8 /* SDWebImagePrefetcher.m */,
+				01AB88841D51B59C00F54BD8 /* UIButton+WebCache.h */,
+				01AB88851D51B59C00F54BD8 /* UIButton+WebCache.m */,
+				01AB88861D51B59C00F54BD8 /* UIImage+GIF.h */,
+				01AB88871D51B59C00F54BD8 /* UIImage+GIF.m */,
+				01AB88881D51B59C00F54BD8 /* UIImage+MultiFormat.h */,
+				01AB88891D51B59C00F54BD8 /* UIImage+MultiFormat.m */,
+				01AB888A1D51B59C00F54BD8 /* UIImageView+HighlightedWebCache.h */,
+				01AB888B1D51B59C00F54BD8 /* UIImageView+HighlightedWebCache.m */,
+				01AB888C1D51B59C00F54BD8 /* UIImageView+WebCache.h */,
+				01AB888D1D51B59C00F54BD8 /* UIImageView+WebCache.m */,
+				01AB888E1D51B59C00F54BD8 /* UIView+WebCacheOperation.h */,
+				01AB888F1D51B59C00F54BD8 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		01AB889E1D51B5A700F54BD8 /* MLPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				01AB889F1D51B5A700F54BD8 /* Classes */,
+				01AB88B71D51B5A700F54BD8 /* MLPhotoBrowser.bundle */,
+			);
+			path = MLPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		01AB889F1D51B5A700F54BD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01AB88A01D51B5A700F54BD8 /* Models */,
+				01AB88A71D51B5A700F54BD8 /* UIImage+MLBrowserPhotoImageForBundle.h */,
+				01AB88A81D51B5A700F54BD8 /* UIImage+MLBrowserPhotoImageForBundle.m */,
+				01AB88A91D51B5A700F54BD8 /* ViewControllers */,
+				01AB88AE1D51B5A700F54BD8 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		01AB88A01D51B5A700F54BD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01AB88A11D51B5A700F54BD8 /* MLPhotoBrowserAssets.h */,
+				01AB88A21D51B5A700F54BD8 /* MLPhotoBrowserAssets.m */,
+				01AB88A31D51B5A700F54BD8 /* MLPhotoBrowserDatas.h */,
+				01AB88A41D51B5A700F54BD8 /* MLPhotoBrowserDatas.m */,
+				01AB88A51D51B5A700F54BD8 /* MLPhotoBrowserPhoto.h */,
+				01AB88A61D51B5A700F54BD8 /* MLPhotoBrowserPhoto.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01AB88A91D51B5A700F54BD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				01AB88AA1D51B5A700F54BD8 /* MLPhotoBrowserSignleViewController.h */,
+				01AB88AB1D51B5A700F54BD8 /* MLPhotoBrowserSignleViewController.m */,
+				01AB88AC1D51B5A700F54BD8 /* MLPhotoBrowserViewController.h */,
+				01AB88AD1D51B5A700F54BD8 /* MLPhotoBrowserViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		01AB88AE1D51B5A700F54BD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01AB88AF1D51B5A700F54BD8 /* MLPhotoBrowserCustomToolBarView.h */,
+				01AB88B01D51B5A700F54BD8 /* MLPhotoBrowserCustomToolBarView.m */,
+				01AB88B11D51B5A700F54BD8 /* MLPhotoBrowserPhotoImageView.h */,
+				01AB88B21D51B5A700F54BD8 /* MLPhotoBrowserPhotoImageView.m */,
+				01AB88B31D51B5A700F54BD8 /* MLPhotoBrowserPhotoScrollView.h */,
+				01AB88B41D51B5A700F54BD8 /* MLPhotoBrowserPhotoScrollView.m */,
+				01AB88B51D51B5A700F54BD8 /* MLPhotoBrowserPhotoView.h */,
+				01AB88B61D51B5A700F54BD8 /* MLPhotoBrowserPhotoView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01AB87A61D51B42700F54BD8 /* DzyImgPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AB87D71D51B42800F54BD8 /* Build configuration list for PBXNativeTarget "DzyImgPicker" */;
+			buildPhases = (
+				01AB87A31D51B42700F54BD8 /* Sources */,
+				01AB87A41D51B42700F54BD8 /* Frameworks */,
+				01AB87A51D51B42700F54BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DzyImgPicker;
+			productName = DzyImgPicker;
+			productReference = 01AB87A71D51B42700F54BD8 /* DzyImgPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01AB87C21D51B42800F54BD8 /* DzyImgPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AB87DA1D51B42800F54BD8 /* Build configuration list for PBXNativeTarget "DzyImgPickerTests" */;
+			buildPhases = (
+				01AB87BF1D51B42800F54BD8 /* Sources */,
+				01AB87C01D51B42800F54BD8 /* Frameworks */,
+				01AB87C11D51B42800F54BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01AB87C51D51B42800F54BD8 /* PBXTargetDependency */,
+			);
+			name = DzyImgPickerTests;
+			productName = DzyImgPickerTests;
+			productReference = 01AB87C31D51B42800F54BD8 /* DzyImgPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01AB87CD1D51B42800F54BD8 /* DzyImgPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AB87DD1D51B42800F54BD8 /* Build configuration list for PBXNativeTarget "DzyImgPickerUITests" */;
+			buildPhases = (
+				01AB87CA1D51B42800F54BD8 /* Sources */,
+				01AB87CB1D51B42800F54BD8 /* Frameworks */,
+				01AB87CC1D51B42800F54BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01AB87D01D51B42800F54BD8 /* PBXTargetDependency */,
+			);
+			name = DzyImgPickerUITests;
+			productName = DzyImgPickerUITests;
+			productReference = 01AB87CE1D51B42800F54BD8 /* DzyImgPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01AB879F1D51B42700F54BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.Xg_FB;
+				TargetAttributes = {
+					01AB87A61D51B42700F54BD8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					01AB87C21D51B42800F54BD8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 01AB87A61D51B42700F54BD8;
+					};
+					01AB87CD1D51B42800F54BD8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 01AB87A61D51B42700F54BD8;
+					};
+				};
+			};
+			buildConfigurationList = 01AB87A21D51B42700F54BD8 /* Build configuration list for PBXProject "DzyImgPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01AB879E1D51B42700F54BD8;
+			productRefGroup = 01AB87A81D51B42700F54BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01AB87A61D51B42700F54BD8 /* DzyImgPicker */,
+				01AB87C21D51B42800F54BD8 /* DzyImgPickerTests */,
+				01AB87CD1D51B42800F54BD8 /* DzyImgPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01AB87A51D51B42700F54BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AB88651D51B57400F54BD8 /* shanguangdeng2@2x.png in Resources */,
+				01AB885F1D51B57400F54BD8 /* checkbox_pic_non@2x.png in Resources */,
+				01AB885B1D51B57400F54BD8 /* btn_back_imagePicker@2x.png in Resources */,
+				01AB88581D51B57400F54BD8 /* broswerPic2.jpg in Resources */,
+				01AB88591D51B57400F54BD8 /* broswerPic3.jpg in Resources */,
+				01AB88681D51B57400F54BD8 /* xiang.png in Resources */,
+				01AB885A1D51B57400F54BD8 /* broswerPic4.jpg in Resources */,
+				01AB88641D51B57400F54BD8 /* shanguangdeng2.png in Resources */,
+				01AB88571D51B57400F54BD8 /* broswerPic1.jpg in Resources */,
+				01AB885D1D51B57400F54BD8 /* checkbox_pic@2x.png in Resources */,
+				01AB88611D51B57400F54BD8 /* lock@2x.png in Resources */,
+				01AB87BD1D51B42700F54BD8 /* LaunchScreen.storyboard in Resources */,
+				01AB88601D51B57400F54BD8 /* icon_pic_break@2x.png in Resources */,
+				01AB88691D51B57400F54BD8 /* xiang@2x.png in Resources */,
+				01AB88621D51B57400F54BD8 /* paizhao.png in Resources */,
+				01AB87BA1D51B42700F54BD8 /* Assets.xcassets in Resources */,
+				01AB88631D51B57400F54BD8 /* paizhao@2x.png in Resources */,
+				01AB88561D51B57400F54BD8 /* broswerPic0.jpg in Resources */,
+				01AB88661D51B57400F54BD8 /* X.png in Resources */,
+				01AB87B51D51B42700F54BD8 /* Main.storyboard in Resources */,
+				01AB88C21D51B5A700F54BD8 /* MLPhotoBrowser.bundle in Resources */,
+				01AB88671D51B57400F54BD8 /* X@2x.png in Resources */,
+				01AB885C1D51B57400F54BD8 /* checkbox_pic2@2x.png in Resources */,
+				01AB885E1D51B57400F54BD8 /* checkbox_pic_non2@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AB87C11D51B42800F54BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AB87CC1D51B42800F54BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01AB87A31D51B42700F54BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AB889B1D51B59C00F54BD8 /* UIImageView+HighlightedWebCache.m in Sources */,
+				01AB884F1D51B57400F54BD8 /* LGCameraImageView.m in Sources */,
+				01AB883D1D51B57400F54BD8 /* LGPhotoPickerBrowserViewController.m in Sources */,
+				01AB88531D51B57400F54BD8 /* ZLCameraViewController.m in Sources */,
+				01AB88961D51B59C00F54BD8 /* SDWebImageManager.m in Sources */,
+				01AB88BA1D51B5A700F54BD8 /* MLPhotoBrowserPhoto.m in Sources */,
+				01AB88C11D51B5A700F54BD8 /* MLPhotoBrowserPhotoView.m in Sources */,
+				01AB883F1D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoImageView.m in Sources */,
+				01AB889C1D51B59C00F54BD8 /* UIImageView+WebCache.m in Sources */,
+				01AB87B21D51B42700F54BD8 /* ViewController.m in Sources */,
+				01AB88461D51B57400F54BD8 /* LGPhotoPickerAssetsViewController.m in Sources */,
+				01AB889A1D51B59C00F54BD8 /* UIImage+MultiFormat.m in Sources */,
+				01AB88451D51B57400F54BD8 /* LGPhotoPickerGroup.m in Sources */,
+				01AB88941D51B59C00F54BD8 /* SDWebImageDownloader.m in Sources */,
+				01AB88441D51B57400F54BD8 /* LGPhotoPickerDatas.m in Sources */,
+				01AB884A1D51B57400F54BD8 /* LGPhotoPickerCollectionViewCell.m in Sources */,
+				01AB883B1D51B57400F54BD8 /* LGPhotoPickerBrowserPhoto.m in Sources */,
+				01AB883E1D51B57400F54BD8 /* LGImagePickerSelectView.m in Sources */,
+				01AB88BC1D51B5A700F54BD8 /* MLPhotoBrowserSignleViewController.m in Sources */,
+				01AB88511D51B57400F54BD8 /* ZLCameraImageView.m in Sources */,
+				01AB88931D51B59C00F54BD8 /* SDWebImageDecoder.m in Sources */,
+				01AB88971D51B59C00F54BD8 /* SDWebImagePrefetcher.m in Sources */,
+				01AB87AF1D51B42700F54BD8 /* AppDelegate.m in Sources */,
+				01AB87AC1D51B42700F54BD8 /* main.m in Sources */,
+				01AB88481D51B57400F54BD8 /* LGPhotoPickerViewController.m in Sources */,
+				01AB87B81D51B42700F54BD8 /* DzyImgPicker.xcdatamodeld in Sources */,
+				01AB88491D51B57400F54BD8 /* LGPhotoPickerCollectionView.m in Sources */,
+				01AB88991D51B59C00F54BD8 /* UIImage+GIF.m in Sources */,
+				01AB88471D51B57400F54BD8 /* LGPhotoPickerGroupViewController.m in Sources */,
+				01AB88BE1D51B5A700F54BD8 /* MLPhotoBrowserCustomToolBarView.m in Sources */,
+				01AB88911D51B59C00F54BD8 /* SDImageCache.m in Sources */,
+				01AB88B91D51B5A700F54BD8 /* MLPhotoBrowserDatas.m in Sources */,
+				01AB889D1D51B59C00F54BD8 /* UIView+WebCacheOperation.m in Sources */,
+				01AB88711D51B59100F54BD8 /* DALabeledCircularProgressView.m in Sources */,
+				01AB884D1D51B57400F54BD8 /* LGPhotoPickerImageView.m in Sources */,
+				01AB88541D51B57400F54BD8 /* DzyImgPicker.m in Sources */,
+				01AB884C1D51B57400F54BD8 /* LGPhotoPickerGroupTableViewCell.m in Sources */,
+				01AB88951D51B59C00F54BD8 /* SDWebImageDownloaderOperation.m in Sources */,
+				01AB88B81D51B5A700F54BD8 /* MLPhotoBrowserAssets.m in Sources */,
+				01AB88521D51B57400F54BD8 /* ZLCameraView.m in Sources */,
+				01AB88501D51B57400F54BD8 /* ZLCamera.m in Sources */,
+				01AB88921D51B59C00F54BD8 /* SDWebImageCompat.m in Sources */,
+				01AB88901D51B59C00F54BD8 /* NSData+ImageContentType.m in Sources */,
+				01AB883C1D51B57400F54BD8 /* LGPhotoRect.m in Sources */,
+				01AB88411D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoView.m in Sources */,
+				01AB88431D51B57400F54BD8 /* LGPhotoAssets.m in Sources */,
+				01AB88BB1D51B5A700F54BD8 /* UIImage+MLBrowserPhotoImageForBundle.m in Sources */,
+				01AB88981D51B59C00F54BD8 /* UIButton+WebCache.m in Sources */,
+				01AB88BF1D51B5A700F54BD8 /* MLPhotoBrowserPhotoImageView.m in Sources */,
+				01AB88BD1D51B5A700F54BD8 /* MLPhotoBrowserViewController.m in Sources */,
+				01AB884E1D51B57400F54BD8 /* UIView+Layout.m in Sources */,
+				01AB88701D51B59100F54BD8 /* DACircularProgressView.m in Sources */,
+				01AB88C01D51B5A700F54BD8 /* MLPhotoBrowserPhotoScrollView.m in Sources */,
+				01AB88421D51B57400F54BD8 /* LGPhotoPickerCustomToolBarView.m in Sources */,
+				01AB884B1D51B57400F54BD8 /* LGPhotoPickerFooterCollectionReusableView.m in Sources */,
+				01AB88551D51B57400F54BD8 /* imageCell.m in Sources */,
+				01AB88401D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AB87BF1D51B42800F54BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AB87C81D51B42800F54BD8 /* DzyImgPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AB87CA1D51B42800F54BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AB87D31D51B42800F54BD8 /* DzyImgPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01AB87C51D51B42800F54BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01AB87A61D51B42700F54BD8 /* DzyImgPicker */;
+			targetProxy = 01AB87C41D51B42800F54BD8 /* PBXContainerItemProxy */;
+		};
+		01AB87D01D51B42800F54BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01AB87A61D51B42700F54BD8 /* DzyImgPicker */;
+			targetProxy = 01AB87CF1D51B42800F54BD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01AB87B31D51B42700F54BD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01AB87B41D51B42700F54BD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01AB87BB1D51B42700F54BD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01AB87BC1D51B42700F54BD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01AB87D51D51B42800F54BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01AB87D61D51B42800F54BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01AB87D81D51B42800F54BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DzyImgPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xg-FB.DzyImgPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01AB87D91D51B42800F54BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DzyImgPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xg-FB.DzyImgPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01AB87DB1D51B42800F54BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DzyImgPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xg-FB.DzyImgPickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DzyImgPicker.app/DzyImgPicker";
+			};
+			name = Debug;
+		};
+		01AB87DC1D51B42800F54BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DzyImgPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xg-FB.DzyImgPickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DzyImgPicker.app/DzyImgPicker";
+			};
+			name = Release;
+		};
+		01AB87DE1D51B42800F54BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DzyImgPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xg-FB.DzyImgPickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DzyImgPicker;
+			};
+			name = Debug;
+		};
+		01AB87DF1D51B42800F54BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DzyImgPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xg-FB.DzyImgPickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DzyImgPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01AB87A21D51B42700F54BD8 /* Build configuration list for PBXProject "DzyImgPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AB87D51D51B42800F54BD8 /* Debug */,
+				01AB87D61D51B42800F54BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AB87D71D51B42800F54BD8 /* Build configuration list for PBXNativeTarget "DzyImgPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AB87D81D51B42800F54BD8 /* Debug */,
+				01AB87D91D51B42800F54BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AB87DA1D51B42800F54BD8 /* Build configuration list for PBXNativeTarget "DzyImgPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AB87DB1D51B42800F54BD8 /* Debug */,
+				01AB87DC1D51B42800F54BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AB87DD1D51B42800F54BD8 /* Build configuration list for PBXNativeTarget "DzyImgPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AB87DE1D51B42800F54BD8 /* Debug */,
+				01AB87DF1D51B42800F54BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01AB87B61D51B42700F54BD8 /* DzyImgPicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01AB87B71D51B42700F54BD8 /* DzyImgPicker.xcdatamodel */,
+			);
+			currentVersion = 01AB87B71D51B42700F54BD8 /* DzyImgPicker.xcdatamodel */;
+			path = DzyImgPicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01AB879F1D51B42700F54BD8 /* Project object */;
+}
