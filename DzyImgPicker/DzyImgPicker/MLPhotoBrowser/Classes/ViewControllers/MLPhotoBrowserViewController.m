@@ -360,7 +360,13 @@ static CGFloat const ZLPickerColletionViewPadding = 20;
             [self.delegate photoBrowser:self removePhotoAtIndexPath:[NSIndexPath indexPathForItem:page inSection:self.currentIndexPath.section]];
         }
         
-        [self.photos removeObjectAtIndex:self.currentPage];
+        if (self.photos.count == 1) {
+            [self.photos removeAllObjects];
+        }else{
+            [self.photos removeObjectAtIndex:self.currentPage];
+
+        }
+        
         
         if (self.currentPage >= self.photos.count) {
             self.currentPage--;
