@@ -137,7 +137,7 @@
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
     
     
-    NSString *msg = [NSString stringWithFormat:@"%ld",(long)self.maxNum];
+    NSString *msg = [NSString stringWithFormat:@"选取图片最大为%ld张!",(long)self.maxNum];
 
     switch (buttonIndex) {
         case 0:
