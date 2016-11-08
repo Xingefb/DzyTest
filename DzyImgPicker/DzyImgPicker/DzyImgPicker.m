@@ -54,8 +54,10 @@
 {
     if (imageArray.count == 1) {
         [imageArray removeAllObjects];
+        
     }else{
         [imageArray removeObjectAtIndex:indexPat.row];
+        [self.collectionView reloadData];
     }
     
 }
@@ -134,13 +136,15 @@
 #pragma mark *UIActionsheetDelegate
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
     
+    
+    NSString *msg = [NSString stringWithFormat:@"%ld",(long)self.maxNum];
+
     switch (buttonIndex) {
         case 0:
         {
             NSLog(@"相机");
-            
             if (self.maxNum-imageArray.count == 0) {
-                UIAlertView *al = [[UIAlertView alloc] initWithTitle:@"提示" message:@"选取图片最大为9张!" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"知道了", nil];
+                UIAlertView *al = [[UIAlertView alloc] initWithTitle:@"提示" message:msg delegate:nil cancelButtonTitle:nil otherButtonTitles:@"知道了", nil];
                 
                 [al show];
             }else{
@@ -153,7 +157,7 @@
         {
             NSLog(@"相册");
             if (self.maxNum-imageArray.count == 0) {
-                UIAlertView *al = [[UIAlertView alloc] initWithTitle:@"提示" message:@"选取图片最大为9张!" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"知道了", nil];
+                UIAlertView *al = [[UIAlertView alloc] initWithTitle:@"提示" message:msg delegate:nil cancelButtonTitle:nil otherButtonTitles:@"知道了", nil];
                 
                 [al show];
             }else{
