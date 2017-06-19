@@ -13,25 +13,18 @@
 #define DzyWid ([UIScreen mainScreen].bounds.size.width)
 #define DzyHei ([UIScreen mainScreen].bounds.size.height)
 
-@interface ViewController () <DzyImgDelegate>
-{
-    DzyImgPicker *DzyView;
-}
+@interface ViewController ()
+<
+DzyImgDelegate
+>
 
+@property (nonatomic ) DzyImgPicker *dzyView;
 @property (nonatomic ) NSArray *data;
 
 @end
 
 @implementation ViewController
 
-
-
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    //从相册返回的话需要刷新下界面
-//    [DzyView.collectionView reloadData];
-    
-}
 #pragma - DzyImgDelegate
 - (void)getImages:(NSArray *)imgData{
     
@@ -92,23 +85,31 @@
     
 }
 
+- (DzyImgPicker *)dzyView {
+
+    if (!_dzyView) {
+        //此处需要注意  自己计算一下  我设置的每个cell 是60*60  间距10 所以 这里一般是设置 全屏宽度  如有特殊需求自行修改
+        DzyImgPicker *picker = [[DzyImgPicker alloc] initWithFrame:CGRectMake(0, 160, DzyWid, 200) andParentV:self andMaxNum:9];
+        picker.delegate = self;
+        picker.backgroundColor = [UIColor orangeColor];
+        _dzyView = picker;
+    }
+    return _dzyView;
+}
+
 - (void)viewDidLoad {
     
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
     self.data = [NSArray new];
-    //此处需要注意  自己计算一下  我设置的每个cell 是60*60  间距10 所以 这里一般是设置 全屏宽度  如有特殊需求自行修改
-    DzyView = [[DzyImgPicker alloc] initWithFrame:CGRectMake(0, 160, DzyWid, 200) andParentV:self andMaxNum:9];
-    DzyView.dzyImgDelegate = self;
-    DzyView.backgroundColor = [UIColor orangeColor];
-    [self.view addSubview:DzyView];
+    
+    [self.view addSubview:self.dzyView];
     
     __weak typeof(self)weakSelf = self;
-    [DzyView setDzyImgs:^(NSArray *data) {
-        NSLog(@"block --- %lu",(unsigned long)data.count);
+    [_dzyView setDzyImgs:^(NSArray *data) {
         weakSelf.data = data;
-        
+        NSLog(@"block --- %lu",(unsigned long)data.count);
     }];
     
     // Do any additional setup after loading the view.

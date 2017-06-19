@@ -30,9 +30,7 @@
 - (instancetype)initWithFrame:(CGRect)frame andParentV:(UIViewController *)parentV andMaxNum:(NSInteger )maxNum;
 //处理block 返回的图片
 @property (nonatomic ) void (^DzyImgs)(NSArray *data);
-//从选择器返回的时候需要刷新界面 所以在每次界面将要显示的时候刷新用
-@property ( nonatomic) UICollectionView *collectionView;
 
-@property (nonatomic ) id<DzyImgDelegate> dzyImgDelegate;
+@property (nonatomic ) id<DzyImgDelegate> delegate;
 
 @end

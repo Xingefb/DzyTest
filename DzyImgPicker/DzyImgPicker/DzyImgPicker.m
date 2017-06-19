@@ -26,6 +26,8 @@
 
 @property (nonatomic, assign) LGShowImageType showType;
 
+@property ( nonatomic) UICollectionView *collectionView;
+
 @end
 
 @implementation DzyImgPicker
@@ -226,8 +228,8 @@
     }
     
     //------- 代理方式
-    if (self.dzyImgDelegate && [self.dzyImgDelegate respondsToSelector:@selector(getImages:)]) {
-        [self.dzyImgDelegate getImages:imageArray];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(getImages:)]) {
+        [self.delegate getImages:imageArray];
     }
     
     //这里边设置 的是 点击添加图片按钮   如果没有到最上限 一直限制添加按钮  否则隐藏掉
