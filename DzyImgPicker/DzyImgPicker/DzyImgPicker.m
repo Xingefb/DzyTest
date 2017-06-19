@@ -58,9 +58,10 @@
         
     }else{
         [imageArray removeObjectAtIndex:indexPat.row];
-//        [self.collectionView reloadData];
     }
     
+    [self.collectionView reloadData];
+
 }
 
 #pragma mark - setupCell click ZLPhotoPickerBrowserViewController
@@ -94,14 +95,14 @@
     // 连拍
     cameraVC.cameraType = ZLCameraContinuous;
     cameraVC.callback = ^(NSArray *cameras){
-        //在这里得到拍照结果
-        //数组元素是ZLCamera对象
-        
+
         for (ZLCamera *canamer in cameras) {
             
             [imageArray addObject:canamer.photoImage];
         }
-                
+
+        [self.collectionView reloadData];
+  
     };
     //展示在父类的View上
     [cameraVC showPickerVc:self.parentV];

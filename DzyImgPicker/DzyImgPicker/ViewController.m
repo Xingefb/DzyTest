@@ -29,7 +29,7 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     //从相册返回的话需要刷新下界面
-    [DzyView.collectionView reloadData];
+//    [DzyView.collectionView reloadData];
     
 }
 #pragma - DzyImgDelegate

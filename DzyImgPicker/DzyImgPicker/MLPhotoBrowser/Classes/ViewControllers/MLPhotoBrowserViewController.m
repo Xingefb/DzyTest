@@ -305,7 +305,13 @@ static CGFloat const ZLPickerColletionViewPadding = 20;
 }
 
 -(void)setPageLabelPage:(NSInteger)page{
-    self.pageLabel.text = [NSString stringWithFormat:@"%ld / %ld",page + 1, self.photos.count];
+    
+    if (self.photos.count == 1) {
+        self.pageLabel.text = [NSString stringWithFormat:@"1 / %ld", self.photos.count];
+    }else {
+        self.pageLabel.text = [NSString stringWithFormat:@"%ld / %ld",page + 1, self.photos.count];
+    }
+    
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
@@ -366,7 +372,6 @@ static CGFloat const ZLPickerColletionViewPadding = 20;
             [self.photos removeObjectAtIndex:self.currentPage];
 
         }
-        
         
         if (self.currentPage >= self.photos.count) {
             self.currentPage--;
