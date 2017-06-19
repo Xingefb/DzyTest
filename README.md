@@ -1,8 +1,7 @@
 
 # DzyTest
 
-![](/Users/dzy/Downloads/gif5新文件.gif
-)
+![gif5新文件.gif](http://upload-images.jianshu.io/upload_images/2048628-e7b546d38790e89d.gif?imageMogr2/auto-orient/strip)
 
 demo 
 基于 LGPhoto和MLPhotoBrowser 两位大神的代码封装了一下 有助于开发速度 简单几行搞定代码的臃肿 
