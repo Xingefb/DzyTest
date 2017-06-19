@@ -187,7 +187,7 @@ static CGFloat const ZLPickerColletionViewPadding = 20;
     if (self.currentPage <= 0){
         self.currentPage = self.currentIndexPath.item;
     }else{
-        self.currentPage--;
+//        self.currentPage--;
     }
     [self.collectionView reloadData];
     

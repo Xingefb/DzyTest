@@ -704,6 +704,7 @@
 				TargetAttributes = {
 					01AB87A61D51B42700F54BD8 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3CP5W9DM94;
 					};
 					01AB87C21D51B42800F54BD8 = {
 						CreatedOnToolsVersion = 7.3;
@@ -985,6 +986,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3CP5W9DM94;
 				INFOPLIST_FILE = DzyImgPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -997,6 +999,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3CP5W9DM94;
 				INFOPLIST_FILE = DzyImgPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

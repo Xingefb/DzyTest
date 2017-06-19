@@ -52,12 +52,13 @@
 #pragma mark 删除照片调用
 - (void)photoBrowser:(MLPhotoBrowserViewController *)photoBrowser removePhotoAtIndexPath:(NSIndexPath *)indexPat
 {
+    
     if (imageArray.count == 1) {
         [imageArray removeAllObjects];
         
     }else{
         [imageArray removeObjectAtIndex:indexPat.row];
-        [self.collectionView reloadData];
+//        [self.collectionView reloadData];
     }
     
 }
