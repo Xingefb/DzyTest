@@ -90,6 +90,7 @@
 		01AB88C01D51B5A700F54BD8 /* MLPhotoBrowserPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88B41D51B5A700F54BD8 /* MLPhotoBrowserPhotoScrollView.m */; };
 		01AB88C11D51B5A700F54BD8 /* MLPhotoBrowserPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88B61D51B5A700F54BD8 /* MLPhotoBrowserPhotoView.m */; };
 		01AB88C21D51B5A700F54BD8 /* MLPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88B71D51B5A700F54BD8 /* MLPhotoBrowser.bundle */; };
+		4041A4B71F135EBC00AA5BB6 /* WTAuthorizationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4041A4B61F135EBC00AA5BB6 /* WTAuthorizationTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -257,6 +258,8 @@
 		01AB88B51D51B5A700F54BD8 /* MLPhotoBrowserPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPhotoBrowserPhotoView.h; sourceTree = "<group>"; };
 		01AB88B61D51B5A700F54BD8 /* MLPhotoBrowserPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPhotoBrowserPhotoView.m; sourceTree = "<group>"; };
 		01AB88B71D51B5A700F54BD8 /* MLPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLPhotoBrowser.bundle; sourceTree = "<group>"; };
+		4041A4B51F135EBC00AA5BB6 /* WTAuthorizationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTAuthorizationTool.h; sourceTree = "<group>"; };
+		4041A4B61F135EBC00AA5BB6 /* WTAuthorizationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTAuthorizationTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,6 +323,8 @@
 				01AB87AE1D51B42700F54BD8 /* AppDelegate.m */,
 				01AB87B01D51B42700F54BD8 /* ViewController.h */,
 				01AB87B11D51B42700F54BD8 /* ViewController.m */,
+				4041A4B51F135EBC00AA5BB6 /* WTAuthorizationTool.h */,
+				4041A4B61F135EBC00AA5BB6 /* WTAuthorizationTool.m */,
 				01AB87B31D51B42700F54BD8 /* Main.storyboard */,
 				01AB87B91D51B42700F54BD8 /* Assets.xcassets */,
 				01AB87BB1D51B42700F54BD8 /* LaunchScreen.storyboard */,
@@ -829,6 +834,7 @@
 				01AB88951D51B59C00F54BD8 /* SDWebImageDownloaderOperation.m in Sources */,
 				01AB88B81D51B5A700F54BD8 /* MLPhotoBrowserAssets.m in Sources */,
 				01AB88521D51B57400F54BD8 /* ZLCameraView.m in Sources */,
+				4041A4B71F135EBC00AA5BB6 /* WTAuthorizationTool.m in Sources */,
 				01AB88501D51B57400F54BD8 /* ZLCamera.m in Sources */,
 				01AB88921D51B59C00F54BD8 /* SDWebImageCompat.m in Sources */,
 				01AB88901D51B59C00F54BD8 /* NSData+ImageContentType.m in Sources */,

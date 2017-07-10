@@ -8,6 +8,8 @@
 
 #import "DzyImgPicker.h"
 
+#import "WTAuthorizationTool.h"
+
 #import "LGPhoto.h"
 #import "MLPhotoBrowserViewController.h"
 #import "imageCell.h"
@@ -137,6 +139,7 @@
     //展示在父类的view上
     [pickerVc showPickerVc:self.parentV];
 }
+
 #pragma mark *UIActionsheetDelegate
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
     
@@ -152,7 +155,13 @@
                 
                 [al show];
             }else{
-                [self presentCameraContinuous];
+                [WTAuthorizationTool requestImagePickerAuthorization:^(WTAuthorizationStatus status) {
+                    if (WTAuthorizationStatusAuthorized == status) {
+                        [self presentCameraContinuous];
+                    }else {
+                        // 根据状态提示
+                    }
+                }];
             }
             
         }
@@ -165,8 +174,13 @@
                 
                 [al show];
             }else{
-                [self presentPhotoPickerViewControllerWithStyle:LGShowImageTypeImagePicker];
-                
+                [WTAuthorizationTool requestImagePickerAuthorization:^(WTAuthorizationStatus status) {
+                    if (WTAuthorizationStatusAuthorized == status) {
+                        [self presentPhotoPickerViewControllerWithStyle:LGShowImageTypeImagePicker];
+                    }else {
+                        // 根据状态提示
+                    }
+                }];
             }
         }
             break;
