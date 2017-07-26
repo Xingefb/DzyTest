@@ -1,5 +1,5 @@
 //
-//  imageCell.h
+//  DzyImageCell.h
 //  images
 //
 //  Created by XG on 16/2/26.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface imageCell : UICollectionViewCell
+@interface DzyImageCell : UICollectionViewCell
 
 @property(nonatomic ,strong)UIImageView *imgView;
 

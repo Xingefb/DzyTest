@@ -42,7 +42,7 @@
 		01AB88521D51B57400F54BD8 /* ZLCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB881D1D51B57400F54BD8 /* ZLCameraView.m */; };
 		01AB88531D51B57400F54BD8 /* ZLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB881F1D51B57400F54BD8 /* ZLCameraViewController.m */; };
 		01AB88541D51B57400F54BD8 /* DzyImgPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88211D51B57400F54BD8 /* DzyImgPicker.m */; };
-		01AB88551D51B57400F54BD8 /* imageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88231D51B57400F54BD8 /* imageCell.m */; };
+		01AB88551D51B57400F54BD8 /* DzyImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB88231D51B57400F54BD8 /* DzyImageCell.m */; };
 		01AB88561D51B57400F54BD8 /* broswerPic0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88251D51B57400F54BD8 /* broswerPic0.jpg */; };
 		01AB88571D51B57400F54BD8 /* broswerPic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88261D51B57400F54BD8 /* broswerPic1.jpg */; };
 		01AB88581D51B57400F54BD8 /* broswerPic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01AB88271D51B57400F54BD8 /* broswerPic2.jpg */; };
@@ -182,8 +182,8 @@
 		01AB881F1D51B57400F54BD8 /* ZLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCameraViewController.m; sourceTree = "<group>"; };
 		01AB88201D51B57400F54BD8 /* DzyImgPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DzyImgPicker.h; sourceTree = "<group>"; };
 		01AB88211D51B57400F54BD8 /* DzyImgPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DzyImgPicker.m; sourceTree = "<group>"; };
-		01AB88221D51B57400F54BD8 /* imageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageCell.h; sourceTree = "<group>"; };
-		01AB88231D51B57400F54BD8 /* imageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageCell.m; sourceTree = "<group>"; };
+		01AB88221D51B57400F54BD8 /* DzyImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DzyImageCell.h; sourceTree = "<group>"; };
+		01AB88231D51B57400F54BD8 /* DzyImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DzyImageCell.m; sourceTree = "<group>"; };
 		01AB88251D51B57400F54BD8 /* broswerPic0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic0.jpg; sourceTree = "<group>"; };
 		01AB88261D51B57400F54BD8 /* broswerPic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic1.jpg; sourceTree = "<group>"; };
 		01AB88271D51B57400F54BD8 /* broswerPic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broswerPic2.jpg; sourceTree = "<group>"; };
@@ -316,8 +316,8 @@
 				01AB87E01D51B57400F54BD8 /* Classes */,
 				01AB88201D51B57400F54BD8 /* DzyImgPicker.h */,
 				01AB88211D51B57400F54BD8 /* DzyImgPicker.m */,
-				01AB88221D51B57400F54BD8 /* imageCell.h */,
-				01AB88231D51B57400F54BD8 /* imageCell.m */,
+				01AB88221D51B57400F54BD8 /* DzyImageCell.h */,
+				01AB88231D51B57400F54BD8 /* DzyImageCell.m */,
 				01AB88241D51B57400F54BD8 /* Images */,
 				01AB87AD1D51B42700F54BD8 /* AppDelegate.h */,
 				01AB87AE1D51B42700F54BD8 /* AppDelegate.m */,
@@ -850,7 +850,7 @@
 				01AB88C01D51B5A700F54BD8 /* MLPhotoBrowserPhotoScrollView.m in Sources */,
 				01AB88421D51B57400F54BD8 /* LGPhotoPickerCustomToolBarView.m in Sources */,
 				01AB884B1D51B57400F54BD8 /* LGPhotoPickerFooterCollectionReusableView.m in Sources */,
-				01AB88551D51B57400F54BD8 /* imageCell.m in Sources */,
+				01AB88551D51B57400F54BD8 /* DzyImageCell.m in Sources */,
 				01AB88401D51B57400F54BD8 /* LGPhotoPickerBrowserPhotoScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

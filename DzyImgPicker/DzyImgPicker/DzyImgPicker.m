@@ -12,7 +12,7 @@
 
 #import "LGPhoto.h"
 #import "MLPhotoBrowserViewController.h"
-#import "imageCell.h"
+#import "DzyImageCell.h"
 
 @interface DzyImgPicker ()<UIActionSheetDelegate,LGPhotoPickerViewControllerDelegate,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout,MLPhotoBrowserViewControllerDataSource,MLPhotoBrowserViewControllerDelegate>
 
@@ -44,22 +44,19 @@
 }
 
 #pragma mark - 每个组展示什么图片,需要包装下ZLPhotoPickerBrowserPhoto
-- (MLPhotoBrowserPhoto *)photoBrowser:(MLPhotoBrowserViewController *)photoBrowser photoAtIndexPath:(NSIndexPath *)indexPath
-{
+- (MLPhotoBrowserPhoto *)photoBrowser:(MLPhotoBrowserViewController *)photoBrowser photoAtIndexPath:(NSIndexPath *)indexPath {
     MLPhotoBrowserPhoto *photo = [MLPhotoBrowserPhoto photoAnyImageObjWith:imageArray[indexPath.row]];
-    imageCell *cell = (imageCell *)[_collectionView cellForItemAtIndexPath:indexPath];
+    DzyImageCell *cell = (DzyImageCell *)[_collectionView cellForItemAtIndexPath:indexPath];
     photo.toView = cell.imgView;
     photo.thumbImage = cell.imgView.image;
     return photo;
 }
 #pragma mark - <MLPhotoPickerBrowserViewControllerDelegate>
 #pragma mark 删除照片调用
-- (void)photoBrowser:(MLPhotoBrowserViewController *)photoBrowser removePhotoAtIndexPath:(NSIndexPath *)indexPat
-{
+- (void)photoBrowser:(MLPhotoBrowserViewController *)photoBrowser removePhotoAtIndexPath:(NSIndexPath *)indexPat {
     
     if (imageArray.count == 1) {
         [imageArray removeAllObjects];
-        
     }else{
         [imageArray removeObjectAtIndex:indexPat.row];
     }
@@ -69,9 +66,9 @@
 }
 
 #pragma mark - setupCell click ZLPhotoPickerBrowserViewController
-- (void) setupPhotoBrowser:(imageCell *) cell{
+- (void) setupPhotoBrowser:(NSIndexPath *)indexPath {
     
-    NSIndexPath *indexPath = [self.collectionView indexPathForCell:cell];
+//    NSIndexPath *indexPath = [self.collectionView indexPathForCell:cell];
     // 图片游览器
     MLPhotoBrowserViewController *photoBrowser = [[MLPhotoBrowserViewController alloc] init];
     // 缩放动画
@@ -224,7 +221,7 @@
     _collectionView.delegate = self;
     _collectionView.dataSource = self;
     //注册cell和ReusableView（相当于头部）
-    [self.collectionView registerClass:[imageCell class] forCellWithReuseIdentifier:@"DzyImgCell"];
+    [self.collectionView registerClass:[DzyImageCell class] forCellWithReuseIdentifier:@"DzyImgCell"];
     
     [self addSubview:_collectionView];
 
@@ -256,10 +253,10 @@
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    imageCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"DzyImgCell" forIndexPath:indexPath];
+    DzyImageCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"DzyImgCell" forIndexPath:indexPath];
     
     if (!cell) {
-//        NSLog(@"不会进入");
+//        NSLog(@"不会进入");imageCell
     }
     
     if (indexPath.row == imageArray.count) {
@@ -288,9 +285,9 @@
         NSLog(@"最后一个的话是添加按钮然后弹出选择键 选择图片的方式");
         [self toChoose];
     }else{
-        imageCell * cell = (imageCell *)[collectionView cellForItemAtIndexPath :indexPath];
+//        DzyImageCell * cell = (DzyImageCell *)[collectionView cellForItemAtIndexPath :indexPath];
         //是图片的话配置浏览 和删除模式
-        [self setupPhotoBrowser:cell];
+        [self setupPhotoBrowser:indexPath];
         
     }
     

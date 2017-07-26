@@ -1,14 +1,14 @@
 //
-//  imageCell.m
+//  DzyImageCell.m
 //  images
 //
 //  Created by XG on 16/2/26.
 //  Copyright (c) 2016年 com.lhs. All rights reserved.
 //
 
-#import "imageCell.h"
+#import "DzyImageCell.h"
 
-@implementation imageCell
+@implementation DzyImageCell
 
 
 - (id)initWithFrame:(CGRect)frame

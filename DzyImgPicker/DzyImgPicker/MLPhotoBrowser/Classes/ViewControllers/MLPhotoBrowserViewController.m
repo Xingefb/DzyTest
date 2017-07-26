@@ -182,7 +182,7 @@ static CGFloat const ZLPickerColletionViewPadding = 20;
 }
 
 #pragma mark - reloadData
-- (void) reloadData{
+- (void)reloadData {
     
     if (self.currentPage <= 0){
         self.currentPage = self.currentIndexPath.item;
@@ -208,6 +208,7 @@ static CGFloat const ZLPickerColletionViewPadding = 20;
     }
     
     [self setPageLabelPage:self.currentPage];
+    
     if (self.currentPage >= 0) {
         CGFloat attachVal = 0;
         if (self.currentPage == [self.dataSource photoBrowser:self numberOfItemsInSection:self.currentIndexPath.section] - 1 && self.currentPage > 0) {
@@ -304,7 +305,7 @@ static CGFloat const ZLPickerColletionViewPadding = 20;
     self.collectionView.frame = tempF;
 }
 
--(void)setPageLabelPage:(NSInteger)page{
+-(void)setPageLabelPage:(NSInteger)page {
     
     if (self.photos.count == 1) {
         self.pageLabel.text = [NSString stringWithFormat:@"1 / %ld", self.photos.count];
